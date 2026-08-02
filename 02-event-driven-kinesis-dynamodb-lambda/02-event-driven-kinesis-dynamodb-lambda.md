@@ -12,7 +12,7 @@ The lab demonstrates how AWS services exchange events asynchronously without dir
 
 The first architecture receives streaming data through Amazon Kinesis. AWS Lambda consumes records using an Event Source Mapping, processes batches of events, and sends execution logs to Amazon CloudWatch.
 
-![ProcessKinesisRecords Lambda Diagram](images\ProcessKinesisRecords.png)
+![ProcessKinesisRecords Lambda Diagram](images/ProcessKinesisRecords.png)
 
 ### Part 2 — DynamoDB Streams
 
